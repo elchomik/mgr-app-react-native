@@ -44,6 +44,7 @@ function HomeScreen({navigation}) {
                 style={styles.textInput}
                 onChangeText={(text) => setTextValue(text)}
                 placeholder= "Type something"
+                placeholderTextColor="white"
                 value={textValue}
                 maxLength={255}
             />
@@ -71,8 +72,7 @@ function HomeScreen({navigation}) {
                         icon = "-"
                         style={styles.decrementButton}
                     />
-                    <Text style={ styles.floatingActionBtnsText
-                    }>
+                    <Text style={ styles.floatingActionBtnsText }>
                         {counter}
                     </Text>
                     <FloatingActionButton
