@@ -9,6 +9,14 @@ export const listStyles = StyleSheet.create({
 
     },
 
+    buttons:{
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        paddingTop: 20,
+        paddingLeft: 20,
+        paddingRight: 20,
+    },
+
     image: {
         width: 70,
         height: 70,
@@ -19,7 +27,8 @@ export const listStyles = StyleSheet.create({
     title: {
         marginLeft: 16,
         fontSize: 24,
-        fontFamily: 'Roboto'
+        fontFamily: 'Roboto',
+        color: 'white'
     },
 
     listContainer: {
@@ -30,8 +39,7 @@ export const listStyles = StyleSheet.create({
         marginTop: 10,
         marginLeft: 30,
         marginRight: 30,
-        // backgroundColor: '#B1A654'
-        backgroundColor:'#ff7f11',
+        backgroundColor:'#9C654C'
     }
     
 });
