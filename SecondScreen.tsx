@@ -1,6 +1,6 @@
 
 import * as React from 'react';
-import { useState } from 'react';
+import { useState} from 'react';
 import {View, Text,Image, FlatList} from 'react-native';
 import { styles } from './styles/FirstScreenStyle';
 import { listStyles } from './styles/SecondScreenStyle';
@@ -43,7 +43,7 @@ function SecondScreen(): JSX.Element {
    
     return (
         <View style={styles.container}>
-            <View style={styles.buttons}>
+            <View style={listStyles.buttons}>
                 <CustomButton title='Sort' onPress={defaultSort}/>
                 <CustomButton title='Reverse' onPress={reverseSort}/>
             </View>
